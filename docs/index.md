@@ -1,3 +1,5 @@
-# Witaj w Dokumentacji
+# Template for Home Page
 
-To jest cos fajnego!
+# Welcome to the **{{ site.title }}** documentation!
+
+This documentation is a work in progress.
