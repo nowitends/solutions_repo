@@ -1,3 +1,11 @@
 # Problem 2
 
-New
+Let's start
+
+![alt text](image.png)
+
+Equation
+
+$$
+x^2+y^2=1
+$$
