@@ -8,13 +8,17 @@
 - Explains the concept of **inertia**.
 - If no net force acts on an object, its velocity remains constant.
 - Mathematically:
-  $$ \sum F = 0 \Rightarrow v = \text{constant} $$
+  $$
+  \sum F = 0 \Rightarrow v = \text{constant}
+  $$
 
 ## 2. Second Law (Law of Acceleration)
 > *The acceleration of an object is directly proportional to the net external force acting on it and inversely proportional to its mass.*
 
 - Defines the relationship between force, mass, and acceleration:
-  $$ F = ma $$
+  $$
+  F = ma
+  $$
   where:
   - $F$ is the net force (N)
   - $m$ is the mass (kg)
@@ -26,7 +30,9 @@
 
 - Forces always occur in pairs.
 - If object A exerts a force on object B, then object B exerts an equal and opposite force on object A:
-  $$ F_{A 	o B} = -F_{B 	o A} $$
+  $$
+  F_{A 	o B} = -F_{B 	o A}
+  $$
 
 ## Applications
 - **First Law:** Seatbelts in cars prevent passengers from continuing forward when a car stops suddenly.
@@ -40,6 +46,4 @@
 | Second | Acceleration | $ F = ma $ |
 | Third | Action-Reaction | $ F_{A \to B} = -F_{B \to A} $ |
 
----
-
-This note provides a concise yet thorough explanation of Newton's three laws of motion, along with relevant equations and applications.
+![alt text](image.png)
