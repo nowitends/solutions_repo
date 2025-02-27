@@ -47,3 +47,46 @@
 | Third | Action-Reaction | $ F_{A \to B} = -F_{B \to A} $ |
 
 ![alt text](image.png)
+<<<<<<< HEAD
+
+## Differential Equations
+
+### 1. First Order
+- **Linear:** $\frac{dy}{dx} + P(x)y = Q(x)$
+- **Separable:** $\frac{dy}{dx} = f(x)g(y)$
+
+### Example
+
+Solve the following differential equation:
+$$
+\frac{dy}{dx} + 2y = 3
+$$
+
+### Solution
+
+Given:
+$$
+\frac{dy}{dx} + 2y = 3
+$$
+
+### Python
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = 2 * np.exp(-2 * x) + 1
+
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.show()
+```
+
+![alt text](image-1.png)
+
+=======
+
+>>>>>>> 29eb383a907ac92c347a54a64e8c2abf214a084d
