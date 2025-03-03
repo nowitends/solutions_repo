@@ -1,4 +1,4 @@
-# **Projectile Motion at 90 Degrees (Vertical Motion)**
+# Problem 3.03.2025 **Projectile Motion at 90 Degrees (Vertical Motion)**
 
 ## **Introduction**
 Projectile motion at an angle of $90^\circ$ refers to purely vertical motion under the influence of gravity. Unlike oblique projectile motion, there is no horizontal displacement, and the motion consists of upward movement until the highest point and then downward free fall.
