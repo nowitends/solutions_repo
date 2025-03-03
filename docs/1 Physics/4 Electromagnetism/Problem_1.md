@@ -43,28 +43,28 @@ For the **ascent phase**, at the maximum height, $v = 0$. Using the first equati
 
 Solving for time to reach the maximum height:
 
-\[
+$$
 t_{\text{up}} = \frac{u}{g}
-\]
+$$
 
 Since the descent time is equal to ascent time, the total time of flight is:
 
-\[
+$$
 T = 2 \times \frac{u}{g} = \frac{2u}{g}
-\]
+$$
 
 ## **Maximum Height**
 The maximum height $H$ is found using the third equation of motion with $v = 0$ at the peak:
 
-\[
+$$
 0 = u^2 - 2gH
-\]
+$$
 
 Solving for $H$:
 
-\[
+$$
 H = \frac{u^2}{2g}
-\]
+$$
 
 ## **Velocity at Any Time**
 The velocity at any instant $t$ during the flight is given by:
