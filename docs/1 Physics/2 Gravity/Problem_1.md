@@ -1,10 +1,12 @@
 # Problem 1
 
-New content
+Old content
 
 $$
-x^2+2x+1=0
+x^2+2x+1=E+(pc)^2+(mc^2)^2
 $$
+
+![alt text](image-2.png)
 
 ```python
 import numpy as np
