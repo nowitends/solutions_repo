@@ -172,7 +172,84 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-2">Problem 2</h1>
-<p>Problem required this and that</p>
+<h1 id="notes-on-limits-of-sequences-and-real-functions">Notes on Limits of Sequences and Real Functions</h1>
+<h2 id="19-limits-of-sequences">19. Limits of Sequences</h2>
+<h3 id="1-limit-of-rational-sequences">1. Limit of Rational Sequences</h3>
+<p>For a rational sequence of the form:
+$$
+\lim_{n \to \infty} \frac{P(n)}{Q(n)}
+$$
+where <span class="arithmatex">\(P(n)\)</span> and <span class="arithmatex">\(Q(n)\)</span> are polynomials, the rule is:
+- If <span class="arithmatex">\(\deg(P) &lt; \deg(Q)\)</span>, then the limit is <span class="arithmatex">\(0\)</span>.
+- If <span class="arithmatex">\(\deg(P) = \deg(Q)\)</span>, then the limit is the ratio of the leading coefficients.
+- If <span class="arithmatex">\(\deg(P) &gt; \deg(Q)\)</span>, then the limit is <span class="arithmatex">\(\infty\)</span> or does not exist.</p>
+<p>Example:
+$$
+\lim_{n \to \infty} \frac{n^2 + 3n}{2 n^2 - 2n}
+$$
+Use the highest power of <span class="arithmatex">\(n\)</span> in both numerator and denominator.</p>
+<h3 id="2-squeeze-theorem">2. Squeeze Theorem</h3>
+<p>If three sequences satisfy:
+$$
+a_n \leq b_n \leq c_n
+$$
+and 
+$$
+\lim_{n \to \infty} a_n = \lim_{n \to \infty} c_n = L,
+$$
+then 
+$$
+\lim_{n \to \infty} b_n = L.
+$$</p>
+<p>Application:
+$$
+\lim_{n \to \infty} \frac{\sin(n)}{n}
+$$
+Since <span class="arithmatex">\(-1 \leq \sin(n) \leq 1\)</span>, divide by <span class="arithmatex">\(n\)</span> and apply the squeeze theorem.</p>
+<h3 id="3-exponential-limit-eulers-number">3. Exponential Limit (Euler's Number)</h3>
+<p>A fundamental limit:
+$$
+\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e.
+$$
+This applies to sequences of the form:
+$$
+a_n = \left(1 + \frac{1}{n}\right)^n.
+$$</p>
+<h2 id="20-limits-of-real-functions">20. Limits of Real Functions</h2>
+<h3 id="1-limit-of-rational-functions">1. Limit of Rational Functions</h3>
+<p>For a rational function:
+$$
+\lim_{x \to \infty} \frac{P(x)}{Q(x)}
+$$
+where <span class="arithmatex">\(P(x)\)</span> and <span class="arithmatex">\(Q(x)\)</span> are polynomials, apply the same rules as for sequences.</p>
+<p>Example:
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}
+$$
+Divide by the highest power of <span class="arithmatex">\(x\)</span> in the denominator.</p>
+<h3 id="2-trigonometric-limits">2. Trigonometric Limits</h3>
+<p>A key formula:
+$$
+\lim_{x \to 0} \frac{\sin(x)}{x} = 1.
+$$
+For modified expressions, use substitution or L'Hôpital's rule.</p>
+<p>Example:
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x+1}.
+$$
+Use small-angle approximations or L'Hôpital’s rule.</p>
+<h3 id="3-asymptotes-of-a-function">3. Asymptotes of a Function</h3>
+<ul>
+<li><strong>Horizontal asymptote</strong>: 
+  <span class="arithmatex">\(<span class="arithmatex">\(\lim_{x \to \pm\infty} f(x) = L\)</span>\)</span> means <span class="arithmatex">\(y = L\)</span> is a horizontal asymptote.</li>
+<li><strong>Vertical asymptote</strong>: Occurs at points where the denominator goes to zero and the function diverges.</li>
+<li><strong>Oblique asymptote</strong>: If <span class="arithmatex">\(\lim_{x \to \infty} \frac{f(x)}{x} = m\)</span>, then <span class="arithmatex">\(y = mx + b\)</span> is an oblique asymptote.</li>
+</ul>
+<p>Example:
+For <span class="arithmatex">\(f(x) = \frac{x^2 - 1}{x^2 + 1}\)</span>, analyze limits as <span class="arithmatex">\(x \to \pm\infty\)</span>.</p>
+<p>For <span class="arithmatex">\(g(x) = \frac{\sin(x)}{x^2+1}\)</span>, check behavior for large <span class="arithmatex">\(x\)</span> and near singularities.</p>
+<hr/>
+<p>These formulas and definitions should help in solving the problems!</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
