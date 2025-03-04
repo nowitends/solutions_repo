@@ -6,6 +6,7 @@ Let's start
 
 ![alt text](image-4.png)
 
+## New Section
 Equation
 
 $$
@@ -37,7 +38,7 @@ This problem explores the governing equations, analytical approximations, and co
 
 ## **2. Useful Formulas and Definitions**
 The equation of motion for a forced damped pendulum is given by:
-\[ \frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\sin\theta = A\cos(\omega t) \]
+$$\frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\sin\theta = A\cos(\omega t)$$
 where:
 - $\theta$ is the angular displacement,
 - $b$ is the damping coefficient,
@@ -49,14 +50,14 @@ where:
 
 ### **Linearized Approximation for Small Angles**
 For small oscillations ($\theta \approx 0$), we can use the approximation $\sin\theta \approx \theta$ to simplify the equation:
-\[ \frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\theta = A\cos(\omega t) \]
+$$\frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\theta = A\cos(\omega t)$$
 This results in a linear differential equation that can be solved using standard methods.
 
 ### **Resonance Condition**
 When the driving frequency $\omega$ matches the natural frequency of the system, resonance occurs, leading to amplified oscillations. The natural frequency for small angles is given by:
-\[ \omega_0 = \sqrt{\frac{g}{L}}. \]
+$$\omega_0 = \sqrt{\frac{g}{L}}.$$
 If the damping is small, the resonance frequency is approximately:
-\[ \omega_r \approx \omega_0 \sqrt{1 - \frac{b^2}{4\omega_0^2}}. \]
+$$\omega_r \approx \omega_0 \sqrt{1 - \frac{b^2}{4\omega_0^2}}.$$
 
 ---
 
