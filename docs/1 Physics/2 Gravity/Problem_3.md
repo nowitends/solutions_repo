@@ -1,6 +1,6 @@
 # Problem 3
 
-# Newton's Laws of Motion
+## Newton's Laws of Motion
 
 ## 1. First Law (Law of Inertia)
 > *An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced external force.*
