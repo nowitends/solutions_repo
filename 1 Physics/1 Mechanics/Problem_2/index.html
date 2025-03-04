@@ -50,7 +50,11 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 2</a>
 <ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="#problem-2_1">Problem 2</a>
+<li class="toctree-l3"><a class="reference internal" href="#new-section">New Section</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#problem-2_1">Problem 2</a>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -177,6 +181,7 @@
 <p>Let's start</p>
 <p><img alt="alt text" src="../image.png"/></p>
 <p><img alt="alt text" src="../image-4.png"/></p>
+<h2 id="new-section">New Section</h2>
 <p>Equation</p>
 <div class="arithmatex">\[
 x^2+y^2=1
@@ -199,7 +204,7 @@ plt.show()
 <hr/>
 <h2 id="2-useful-formulas-and-definitions"><strong>2. Useful Formulas and Definitions</strong></h2>
 <p>The equation of motion for a forced damped pendulum is given by:
-[ \frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\sin\theta = A\cos(\omega t) ]
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\sin\theta = A\cos(\omega t)\)</span>\)</span>
 where:
 - <span class="arithmatex">\(\theta\)</span> is the angular displacement,
 - <span class="arithmatex">\(b\)</span> is the damping coefficient,
@@ -210,13 +215,13 @@ where:
 - <span class="arithmatex">\(t\)</span> represents time.</p>
 <h3 id="linearized-approximation-for-small-angles"><strong>Linearized Approximation for Small Angles</strong></h3>
 <p>For small oscillations (<span class="arithmatex">\(\theta \approx 0\)</span>), we can use the approximation <span class="arithmatex">\(\sin\theta \approx \theta\)</span> to simplify the equation:
-[ \frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\theta = A\cos(\omega t) ]
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\theta = A\cos(\omega t)\)</span>\)</span>
 This results in a linear differential equation that can be solved using standard methods.</p>
 <h3 id="resonance-condition"><strong>Resonance Condition</strong></h3>
 <p>When the driving frequency <span class="arithmatex">\(\omega\)</span> matches the natural frequency of the system, resonance occurs, leading to amplified oscillations. The natural frequency for small angles is given by:
-[ \omega_0 = \sqrt{\frac{g}{L}}. ]
+<span class="arithmatex">\(<span class="arithmatex">\(\omega_0 = \sqrt{\frac{g}{L}}.\)</span>\)</span>
 If the damping is small, the resonance frequency is approximately:
-[ \omega_r \approx \omega_0 \sqrt{1 - \frac{b^2}{4\omega_0^2}}. ]</p>
+<span class="arithmatex">\(<span class="arithmatex">\(\omega_r \approx \omega_0 \sqrt{1 - \frac{b^2}{4\omega_0^2}}.\)</span>\)</span></p>
 <hr/>
 <h2 id="3-examples-and-computational-implementation"><strong>3. Examples and Computational Implementation</strong></h2>
 <h3 id="example-1-analytical-solution-for-small-angles"><strong>Example 1: Analytical Solution for Small Angles</strong></h3>
