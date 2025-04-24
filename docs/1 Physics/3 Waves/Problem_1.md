@@ -40,3 +40,5 @@ $$c=\sqrt{a^2+b^2}=\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{25}=5$$
 ## Screenshot
 
 ![alt text](image.png)
+
+![alt text](image-1.png)
