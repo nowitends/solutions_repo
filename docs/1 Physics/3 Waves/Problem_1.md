@@ -1,7 +1,11 @@
 # Problem Waves
 
 Pythagorean theorem is given by the equation:
-$a^2+b^2=c^2$
+$a^3+b^3=c^3$
+
+## Solution!!!
+
+Bla bla
 
 ## History
 
